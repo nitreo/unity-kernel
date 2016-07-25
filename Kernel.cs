@@ -138,8 +138,8 @@ namespace Kernel
 
             foreach (var service in services)
             {
-                Container.Bind(service.GetType()).ToInstance(service);
-                Container.BindAllInterfacesToInstance(service);
+                Container.Bind(service.GetType()).FromInstance(service);
+                Container.BindAllInterfaces(service.GetType()).FromInstance(service);
             }
 
             foreach (var service in services)

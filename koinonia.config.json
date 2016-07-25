@@ -1,0 +1,13 @@
+{
+
+  "Title" : "Kernel",
+  "License" : "MIT",
+  "Author" : "Sini",
+  "Dependencies" : {
+    "nitreo/unity-rect-extensions" : "v0.0.1",
+    "nitreo/Zenject" : "master",
+    "nitreo/UniRx" : "master"
+  }
+
+
+}
